@@ -1,0 +1,22 @@
+name: weather_premium_full
+description: A full premium weather app with GPS, favorites, settings, and premium UI.
+version: 1.0.0
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  http: ^1.2.0
+  provider: ^6.1.1
+  shared_preferences: ^2.2.2
+  geolocator: ^12.0.0
+  google_fonts: ^6.1.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
