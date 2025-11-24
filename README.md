@@ -7,6 +7,7 @@ This project follows clean folder structure practices, state management using **
 ---
 
 # 📁 **Folder Structure (Full Project Structure)**
+```md
 weather_premium_full/
 │
 ├── android/ # Android native project
@@ -48,7 +49,7 @@ weather_premium_full/
 │
 ├── pubspec.yaml # Dependencies + project metadata
 └── README.md # Project documentation
-
+```
 ---
 
 # 🔑 **API Key Setup**
@@ -73,24 +74,28 @@ Get your key from:
 1️⃣ Install dependencies
 
   - Run:
+    ```arduino
      flutter pub get
-
+    ```
 2️⃣ Fix unsupported platforms
 
   - If Flutter says: "No supported devices connected"
   - Run:
+    ```arduino
      flutter create .
-
+      ```
 3️⃣ Run the app
+```arduino
     flutter run
-
+```
 ---
 
 # 📦 Build an Android APK
 
 run:
+```arduino
  flutter build apk --release
-
+```
 Your APK will be generated in:
 
 build/app/outputs/flutter-apk/app-release.apk 
@@ -102,16 +107,19 @@ build/app/outputs/flutter-apk/app-release.apk
 ⚠ iOS requires a Mac with Xcode installed.
 
 1️⃣ Install CocoaPods
+```arduino
    sudo gem install cocoapods
-
+```
 2️⃣ Install iOS dependencies
+```arduino
   cd ios
   pod install
   cd ..
-
+```
 3️⃣ Build iOS release
+```arduino
   flutter build ios --release
-
+```
 
 Output appears in:
 
@@ -138,23 +146,23 @@ Output appears in:
 
 🌤 Detailed weather info:
 
-    Temperature
+  - Temperature
 
-    Description
+  -  Description
 
-    Feels Like
+  -  Feels Like
 
-    Humidity
+  -  Humidity
 
-    Wind Speed
+  -  Wind Speed
 
-    Sunrise & Sunset (local time)
+  -  Sunrise & Sunset (local time)
 
-    Weather icons
+  -  Weather icons
 
-    Clean MVC-like folder structure
+  -  Clean MVC-like folder structure
 
-    Fully extensible architecture
+  -  Fully extensible architecture
 
 ---
 
