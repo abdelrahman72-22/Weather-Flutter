@@ -6,7 +6,7 @@ class ApiService {
   final String baseUrl = "https://api.openweathermap.org/data/2.5/weather";
 
   // IMPORTANT — Replace with your actual API Key
-  final String apiKey = "b0e7cbed8594123e42f566c355ab7c79";
+  final String apiKey = "API_KEY_HERE";
 
   // ---------------------------------------------------
   // Get weather by city name
@@ -42,3 +42,4 @@ class ApiService {
     }
   }
 }
+
